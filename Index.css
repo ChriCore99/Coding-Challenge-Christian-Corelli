@@ -1,0 +1,95 @@
+/* foto sfondo */
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+/* sfondo traslucido */
+#sfondotraslucido {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5%;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 2%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-bottom: 90px;
+}
+
+#sfondotraslucido .logo {
+    text-align: center;
+}
+
+#sfondotraslucido header {
+    text-align: center;
+}
+
+/* logo */
+img {
+    margin-top: 6%;
+}
+
+/* titolo */
+header {
+    color: #00dd00;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin-bottom: 1px;
+    margin-top: 0px;
+}
+
+/* bottoni */
+#bottoni {
+    text-align: center;
+    background-color: #00dd00;
+    padding: 10px;
+    margin-right: 12%;
+} 
+
+/* testo checkbox */
+h2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* testo leggibile */
+p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+}
+
+/* barre di utilizzo colorate */
+.barragialla {
+    width: 33%;
+    height: 27px;
+    background-color: #f5b453;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.barraverde {
+    width: 54%;
+    height: 27px;
+    background-color: #00dd00;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.barrarossa {
+    width: 13%;
+    height: 27px;
+    background-color: #be4141;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
